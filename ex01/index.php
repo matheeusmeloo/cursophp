@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="https://www.php.net/favicon.ico?v=2">
-    <title>Document</title>
+    <title>Aulas PHP</title>
 </head>
 <body>
     <h1>
@@ -12,6 +12,11 @@
         date_default_timezone_set("America/Sao_Paulo");
             echo "Hoje é o dia " . date("d/M/Y");
             echo " e a hora atual é " . date("G:i:s T");
+
+            $nome = "Matheus";
+            $idade = "25";
+            $peso = "86.9";
+            $casado = "true";
         ?>
     </h1>
 </body>
