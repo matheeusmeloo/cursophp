@@ -13,7 +13,7 @@
     </header>
         <section>
             <a href="01_ant_suc/ant_suc.php"><button type="button">Antecessor e Sucessor</button></a>
-            <a href=""><button type="button">Sorteador de números</button></a>
+            <a href="02_sorteador/sorteador_num.php"><button type="button">Sorteador de números</button></a>
             <a href=""><button type="button">Converso de Moedas Básico</button></a>
             <a href=""><button type="button">Converso de Moedas Avançado</button></a>
             <a href=""><button type="button">Analisando um número Real</button></a>
