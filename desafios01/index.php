@@ -12,7 +12,7 @@
         <h1>Desafios PHP 01</h1>
     </header>
         <section>
-            <a href="ant_suc.php"><button type="button">Antecessor e Sucessor</button></a>
+            <a href="01_ant_suc/ant_suc.php"><button type="button">Antecessor e Sucessor</button></a>
             <a href=""><button type="button">Sorteador de números</button></a>
             <a href=""><button type="button">Converso de Moedas Básico</button></a>
             <a href=""><button type="button">Converso de Moedas Avançado</button></a>
