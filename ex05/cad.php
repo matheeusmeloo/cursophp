@@ -14,8 +14,8 @@
     <main>
         <?php
             //var_dump($_REQUEST);// $_GET $_POST $_COOKIE - O request é basicamente a junção de todos estes itens
-            $n = $_GET["nome"];
-            $s = $_GET["sobrenome"];
+            $n = $_GET["nome"] ?? "Sem nome"; // coalescencia nula no PHP, função para direcionar melhor mensagens de erro só usando o ?? depois das variaveis
+            $s = $_GET["sobrenome"] ?? "Desconhecido";
             echo "<p>É um prazer te conhecer, $n $s! Este é o meu site!";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
