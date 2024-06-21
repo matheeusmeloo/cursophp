@@ -16,8 +16,6 @@
             $n = $_GET["numero"] ?? "Valor inválido";
             // $frac = substr(strpbrk($n, '.,'), 1); // aqui ele vira uma string
             $frac = (int) substr(strpbrk($n, '.,'), 1); // assim o valor permanece como número
-            // $i = "";
-            // $f = "";
 
             echo "<p>Analisando o número <strong>$n</strong> informado pelo usuário:</p>";
             echo "<ul>
