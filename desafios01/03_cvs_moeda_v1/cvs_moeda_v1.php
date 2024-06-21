@@ -14,7 +14,7 @@
         <section>
             <form action="result_moeda_v1.php" method="get">
                 <label for="numero">Quantos R$ você tem na carteira: </label>
-                <input type="number" name="numero" id="idnumero">
+                <input type="number" name="din" id="din" step="0.1">
                 <input type="submit" value="Converter">
             </form>
             <a href="javascript:history.go(-1)"><button type="button">⬅️ Voltar</button></a>
