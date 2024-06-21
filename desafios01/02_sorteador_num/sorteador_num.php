@@ -13,7 +13,8 @@
     </header>
     <main>
         <?php
-            $n = random_int(0, 100);
+            $n = mt_rand(0, 100);// função mais rápida para executar o comando
+            // $n = random_int(0, 100); // Esta função pode ser um pouco demorada em alguns casos específicos, pois gera um numero criptografado.
             echo "<p>Gerando um número aleatório entro 0 e 100...</p>";
             echo "<p>O valor gerado foi <strong>$n</strong></p>";
         ?>
